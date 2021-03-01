@@ -1,0 +1,20 @@
+{
+  "name": "gempa-api",
+  "version": "1.0.0",
+  "description": "realtime API informasi gempa. Data didapat dari infoBMKG",
+  "main": "index.js",
+  "author": "raffifu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "xml2js": "^0.4.23"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
